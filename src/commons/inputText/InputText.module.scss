@@ -1,0 +1,19 @@
+.container{
+  display: inline-block;
+  position: relative;
+}
+
+.inputText {
+  padding: 10px 10px;
+  width: 100%;
+  &:focus{
+    outline: none;
+  }
+}
+
+.loaderContainer{
+  position: absolute;
+  right:10px;
+  top:8px;
+  display: inline-block;
+}

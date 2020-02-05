@@ -1,0 +1,42 @@
+$headerHeight: 100px;
+
+.pageContainer{  
+  background-color:#ffffff;
+  position: absolute;
+  top:0px;
+  left:0px;
+  right:0px;
+  bottom:0px;
+  
+
+}
+.page{
+  position: absolute;
+  left:50%;
+  width:1200px;
+  max-width:calc(100% - 10px);
+  top:0px;
+  bottom:0px;
+  transform: translateX(-50%);
+  background-color: #ffffff;
+  
+
+}
+
+.header{
+  position: absolute;
+  left:0px;
+  right:0px;
+  top:0px;
+  height:$headerHeight;
+}
+
+.items{
+  position: absolute;
+  left:0px;
+  right:0px;
+  top:$headerHeight;
+  bottom: 0px;
+  overflow:auto;
+}
+
